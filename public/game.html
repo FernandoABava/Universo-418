@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>418 TIF TPA</title>
+    <style> body {padding: 0; margin: 0;} </style>
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- Raleway -->
+    <!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Spartan -->
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@200;400;600&display=swap" rel="stylesheet">
+
+    <!-- Josefin Sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet" type="text/css">
+
+    <!-- Comforta -->
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/palette.css">
+    <link rel="stylesheet" href="css/components.css">
+
+    <!-- JS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="p5/p5.min.js"></script>
+    <script src="p5/addons/p5.sound.min.js"></script>
+
+    <script src="js/utils.js"></script>
+    <script src="js/color-palette.js"></script>
+
+    <script src="js/turno.js"></script>
+    <script src="js/entorno.js"></script>
+    <script src="js/intro.js"></script>
+    <script src="js/viaje.js"></script>
+
+    <script src="js/sketch.js"></script>
+
+    <script src="js/keyboard.js"></script>
+    <script src="js/sonido.js"></script>
+
+    <script src="js/app.js"></script>
+  </head>
+  <body id="body" class="b-bg c-ma">
+    <div id="cnv" class="sketch">
+    </div>
+
+    <div id="p5_loading" class="container" style="text-align: center; margin-top: 20%">
+      <span>Cargando los archivos</span>
+      <p>esto puede tardar un poco.</p>
+
+    </div>
+
+    <div id="reproducir" class="container" style="text-align: center; margin-top: 20%">
+      <p>Esta página va a reproducir audio, cuando esté listo presione en "reproducir".
+      <br> Se recomienda el uso de auriculares</p>
+      <div class="">
+        <img src="./img/Auriculares.png" alt="Un ícono de un par de auriculares" style="margin: auto; width: 12%">
+      </div>
+      <button type="button" class="s-op">Reproducir</button>
+    </div>
+
+    <div id="ingame" class="container" style="height: 100%">
+      <div class="row entorno">
+        <div class="twelve columns">
+          <p class="mundo"></p>
+        </div>
+      </div>
+
+
+      <div class="row" style="margin-top: 5%">
+        <div class="twelve columns" style="text-align: center">
+          <!-- <h1>418</h1> -->
+
+          <span class="hp b-ma c-bg" style="display: inline-block">Energía: </span>
+        </div>
+      </div>
+
+
+      <div class="row" style="margin-top: 3rem">
+        <div class="three columns carta" data-index="0">
+          <div class="contenido">
+            <img src="img/cartaLisa.png" alt="">
+            <p class="descripcion"></p>
+            <strong><span class="puntos"></span></strong>
+          </div>
+          <button type="button" class="accion">enfrentar 1</button>
+        </div>
+
+        <div class="three columns carta" data-index="1">
+          <div class="contenido">
+            <img src="img/cartaLisa.png" alt="">
+            <p class="descripcion"></p>
+            <strong><span class="puntos"></span></strong>
+          </div>
+          <button type="button" class="accion">enfrentar 2</button>
+        </div>
+
+        <div class="three columns carta" data-index="2">
+          <div class="contenido">
+            <img src="img/cartaLisa.png" alt="">
+            <p class="descripcion"></p>
+            <strong><span class="puntos"></span></strong>
+          </div>
+          <button type="button" class="accion">enfrentar 3</button>
+        </div>
+
+        <div class="three columns carta" data-index="3">
+          <div class="contenido">
+            <img src="img/cartaLisa.png" alt="">
+            <p class="descripcion"></p>
+            <strong><span class="puntos"></span></strong>
+          </div>
+          <button type="button" class="accion">enfrentar 4</button>
+        </div>
+
+      </div>
+      <div class="twelve columns" style="text-align: center; margin-top: 2rem">
+        <button type="button" class="pasar">Viajar</button>
+      </div>
+    </div>
+    <div class="alerta b-bg">
+      <span class="cont-alerta">¡Alerta!</span>
+    </div>
+
+  </body>
+</html>

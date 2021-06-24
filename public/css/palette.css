@@ -1,0 +1,35 @@
+/* COLORES */
+.c-ma{
+  color: var(--m-figura);
+}
+.b-ma{
+  background-color: var(--m-figura);
+}
+
+.c-sa{
+  color: var(--s-figura);
+}
+.b-sa{
+  background-color: var(--s-figura);
+}
+
+.c-fg{
+  color: var(--m-acento);
+}
+.b-fg{
+  background-color: var(--m-acento);
+}
+
+.c-fbg {
+  color: var(--s-acento);
+}
+.b-fbg {
+  background-color: var(--s-acento);
+}
+
+.c-bg {
+  color: var(--fondo);
+}
+.b-bg {
+  background-color: var(--fondo);
+}

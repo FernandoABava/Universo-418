@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>418 TIF TPA</title>
+    <style> body {padding: 0; margin: 0;} </style>
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- Raleway -->
+    <!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Spartan -->
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@200;400;600&display=swap" rel="stylesheet"> 
+
+    <!-- Josefin Sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Comforta -->
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/palette.css">
+    <link rel="stylesheet" href="css/components.css">
+
+    <!-- JS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="p5/p5.min.js"></script>
+    <script src="js/menu.js"></script>
+
+  </head>
+  <body id="body" class="b-bg c-ma">
+    <div class="container">
+      <div class="twelve columns" style="text-align: center">
+        <h1>Universo 418</h1>
+      </div>
+      <div class="row menu" style="margin-top: 5%">
+        <div class="twelve columns op-menu">
+          <a href="./game.html">
+            <button type="button" class="m-op">
+              <span>Iniciar</span>
+            </button>
+          </a>
+        </div>
+        <div id="op-inst" class="twelve columns op-menu">
+          <a href="#instrucciones">
+            <button type="button" class="s-op">
+              Instrucciones
+            </button>
+          </a>
+        </div>
+        <!-- <div id="op-config" class="twelve columns op-menu">
+          <a href="#config">
+            <button type="button" class="s-op">
+              Configuración
+            </button>
+          </a>
+        </div> -->
+        <div id="op-cred" class="twelve columns op-menu">
+          <a href="#creditos">
+            <button type="button" class="s-op">
+              Créditos
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div class="row desplegable" id="instrucciones" style="margin-top: 5%">
+        <div class="twelve columns">
+          <h5>Instrucciones</h5>
+          <ul>
+            <li>A lo largo de tu viaje vas a recorrer diferentes mundos, en donde tendrás que superar diferentes situaciones y enfrentamientos.</li>
+            <li>Tu objetivo es salir de cada mundo con energía suficiente como para llegar al siguiente.</li>
+            <li>En cada turno te encontrarás con 4 personajes u objetos que te van a ayudar o a complicar tu viaje. Algunos suman energía y otros restan.</li>
+            <li>Como  viajero, vas a tener que decidir en qué orden enfrentarlos para poder seguir viajando.</li>
+            <li>Cuidado con absorber mucha energía, ya que el máximo de energía que podes cargar son 12 puntos de energía. Más que eso no se va a sumar.</li>
+            <li>En cada mundo podés dejar atrás a un solo personaje, sea uno que te ayude o uno que reste. Es posible, sin embargo, que lo vuelvas a encontrar más adelante.</li>
+          </ul>
+          <h6>Controles</h6>
+          <ul>
+            <li>Para seleccionar cada personaje que te encuentres usá las teclas 'A', 'S', 'D', 'F'. Para enfrentarlo o aprovecharlo seleccionalo y presioná Enter.</li>
+            <li>Para pasar el turno y avanzar en el viaje presioná 'W'.</li>
+            <li>Presionar 'W' para saltear la narración.</li>
+            <li>Presioná la tecla 'E' para escuchar cuánta energía tenés</li>
+            <li>Presioná la letra I para escuchar las instrucciones. Volvé a presionar para continuar con el juego.</li>
+            <li>Presioná la letra P para pausar la narración. Volvé a presionarla para reanudarla.</li>
+          </ul>
+        </div>
+        <div class="twelve columns">
+          <a class="volver" href="#menu">
+            <span>Menú</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="row desplegable" id="config" style="margin-top: 5%">
+        <div class="twelve columns">
+
+          <li>
+            <label class="">
+              <p class="label-body">Jugar sin Audio</p>
+              <input type="checkbox" value="false">
+            </label>
+          </li>
+
+        </div>
+        <div class="twelve columns">
+          <a class="volver" href="#menu">
+            <span>Guardar y volver</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="row desplegable" id="creditos" style="margin-top: 5%">
+        <div class="twelve columns">
+          <p>UNLP/FDA/TPA</p>
+          <p>Somos Suyay Sago y Fernando Bava, estudiantes de Diseño Multimedial en la Facultad de Artes de la Universidad Nacional de La Plata (UNLP).
+            <br>En el marco institucional, para la materia Teoría de la Práctica Artística (Cátedra a cargo del Profesor Titular Fernando Davis), llevamos a cabo en el año 2020 un trabajo con modalidad de Extensión respondiendo de alguna forma a alguna necesidad de una institución o proyecto en la ciudad de La Plata.
+            <br>Agradecemos a Sergio Rojas, Director de la Biblioteca Braille, Digital y Parlante quien respondió a nosotros con la mayor predisposición posible y permitió que se entablara el diálogo para la producción de este proyecto en conjunto con la Institución.
+            <br>Agradecemos a nuestra docente María Paula Padegimas por su buena onda y por su guía a lo largo de todo este recorrido.
+            <br>Agradecemos a Luciana Bava (o Luchi) y a Muriel Sago (o Muri) quienes colaboraron con sus voces para la creación de esta experiencia lúdico-narrativa.
+            <br>Agradecemos a Juan Quiroga (o Yon) por sus aportes en la construcción del espacio sonoro en los mundos narrativos.
+            <br>Agradecemos a Emmanuel Fernandez (o Manu) por contribuir con atmósferas sonoras para diferentes instancias de la experiencia.
+          </p>
+          <p>con cariño por Suyi y Fer</p>
+        </div>
+        <div class="twelve columns">
+          <a class="volver" href="#menu">
+            <span>Menú</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

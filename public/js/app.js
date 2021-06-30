@@ -19,9 +19,7 @@ let estado = 'menu';
 var loadCount = 0;
 
 function preload() {
-  $('.alerta').hide();
-  $('.puntos').hide();
-  $('.carta').hide();
+  // $('.alerta').hide();
 
   $('#p5_loading').append(`<div id="l-bar"
     style="background-color: #4c6e81; width: 0%; height: 1rem; margin: 0px auto 0px">
@@ -42,8 +40,11 @@ function setup(){
 }
 
 $(document).ready(function() {
-  $('#reproducir').hide();
-  $('#ingame').hide();
+  $('.puntos').hide();
+  $('.carta').hide();
+
+  // $('#reproducir').hide();
+  // $('#ingame').hide();
 
   $('#reproducir').find('button').click(function(event) {
     $('#reproducir').hide();

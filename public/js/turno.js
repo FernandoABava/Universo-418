@@ -18,11 +18,11 @@ function nuevaMano(){
     $(el).find('.descripcion').text(cartasEnMesa[i].descripcion)
     $(el).find('img').attr('src', cartasEnMesa[i].img);
 
-    if(cartasEnMesa[i].energia < 0){
-      $(el).addClass('c-fg');
-    }else {
-      $(el).removeClass('c-fg');
-    }
+    // if(cartasEnMesa[i].energia < 0){
+    //   $(el).addClass('c-fg');
+    // }else {
+    //   $(el).removeClass('c-fg');
+    // }
   })
 
   // mainAudio.onended(()=>{
@@ -64,7 +64,8 @@ function acciones(){
         opacity: .1
       }, 'fast', ()=>{
         $('.hp').animate({
-          opacity: 1.
+          opacity: vida/12 *.75 + .25,
+          width: vida/12 *100 +'%'
         }, 400);
       })
 

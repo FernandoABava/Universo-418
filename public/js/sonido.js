@@ -32,33 +32,33 @@ function loadAudio(){
     soundFormats('mp3', 'ogg');
 
     for (var i = 1; i <31; i++) {
-      aCartas.push(loadSound('../audio/cartas/carta' + i, ()=>{loadingBar}));
+      aCartas.push(loadSound('../audio/cartas/carta' + i, ()=>{loadingBar}, err));
 
-      if(i-1<13) aEnergia.push(loadSound('../audio/sistema/energia/' + (i-1) + 'energia', loadingBar))
+      if(i-1<13) aEnergia.push(loadSound('../audio/sistema/energia/' + (i-1) + 'energia', loadingBar, err))
       if(i<9){
-        audioMundos.push(loadSound('../audio/mundos/mundo' + i, loadingBar));
+        audioMundos.push(loadSound('../audio/mundos/mundo' + i, loadingBar, err));
 
         if(atmosExists(i))
-          audioAtmos.push(loadSound('../audio/atmos/atmos'+i, loadingBar));
+          audioAtmos.push(loadSound('../audio/atmos/atmos'+i, loadingBar, err));
         else
           audioAtmos.push(undefined);
       }
-      if(i-1<7) audioViajes.push(loadSound('../audio/viajes/viaje' + (i-1), loadingBar));
-      if(i<4) aAlertas.push(loadSound('../audio/sistema/alertas/alerta' + i, loadingBar))
+      if(i-1<7) audioViajes.push(loadSound('../audio/viajes/viaje' + (i-1), loadingBar, err));
+      if(i<4) aAlertas.push(loadSound('../audio/sistema/alertas/alerta' + i, loadingBar, err))
     }
 
-    aInstrucciones = loadSound('../audio/sistema/instrucciones/controles', loadingBar)
+    aInstrucciones = loadSound('../audio/sistema/instrucciones/controles', loadingBar, err)
 
     // aNave.push(loadSound('../audio/nave/puerta0'))
     // aNave.push(loadSound('../audio/nave/puerta1'))
 
-    audioFinales.push(loadSound('../audio/puntas/final1', loadingBar));
-    audioFinales.push(loadSound('../audio/puntas/final2', loadingBar));
-    audioIntro =loadSound('../audio/puntas/intro', loadingBar);
+    audioFinales.push(loadSound('../audio/puntas/final1', loadingBar, err));
+    audioFinales.push(loadSound('../audio/puntas/final2', loadingBar, err));
+    audioIntro =loadSound('../audio/puntas/intro', loadingBar, err);
 
-    atmosOtros.push(loadSound('../audio/atmos/a-puntas/a-intro', loadingBar));
-    atmosOtros.push(loadSound('../audio/atmos/a-puntas/a-viajes', loadingBar));
-    atmosOtros.push(loadSound('../audio/atmos/a-puntas/a-final', loadingBar));
+    atmosOtros.push(loadSound('../audio/atmos/a-puntas/a-intro', loadingBar, err));
+    atmosOtros.push(loadSound('../audio/atmos/a-puntas/a-viajes', loadingBar, err));
+    atmosOtros.push(loadSound('../audio/atmos/a-puntas/a-final', loadingBar, err));
   }
 
 }
@@ -192,4 +192,8 @@ function aFadeIn(sonido, t){
   sonido.setVolume(0);
   sonido.play();
   sonido.setVolume(1,t);
+}
+
+function err() {
+  console.error(`Falló la carga de uno de los sonidos. Peldaño nro ${loadCount}`);
 }

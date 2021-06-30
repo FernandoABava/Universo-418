@@ -64,10 +64,14 @@ function randomizePos(){
 
 function draw() {
   background(lBg, 10);
-  if(estado == 'entorno' || estado == 'turno'){
+  if(estado == 'entorno'){
+    fondo3();
+    drawProgreso();
+  }else if(estado == 'turno'){
     fondo3();
   }else if (estado == 'viaje') {
     fondo1();
+    drawProgreso();
   }else if(estado == 'intro'){
     fondo2();
   }else if(estado == 'final'){
@@ -183,4 +187,23 @@ function fondo4() {
   // stroke(ca);
   // ellipse(posB.x, posB.y, height*.25);
   pop()
+}
+
+function drawProgreso() {
+  push();
+  strokeWeight(2)
+  stroke(color($(':root').css('--m-figura')));
+  noFill();
+  line(width*.1, height*.8, width*.9, height*.8);
+  ellipse(width*.9, height*.8, 20);
+
+  stroke(ca);
+  let prog = 1-(maso.length/24);
+  let x = width*.1 + width*.8*prog;
+  line(width*.1, height*.8, x, height*.8);
+
+  fill(ca)
+  ellipse(x, height*.8, 20);
+
+  pop();
 }

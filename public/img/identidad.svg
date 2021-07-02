@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="255"
+   height="140"
+   viewBox="0 0 67.4679 37.0412"
+   version="1.1"
+   id="svg1401"
+   inkscape:export-filename="D:\Users\Fernando A. Bava\Documents\Facultad\TPA\TPF\imgs\MarcaGráfica.png"
+   inkscape:export-xdpi="84.240105"
+   inkscape:export-ydpi="84.240105"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="identidad.svg">
+  <defs
+     id="defs1395" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.1702285"
+     inkscape:cx="109.72802"
+     inkscape:cy="109.89569"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     scale-x="0.26458"
+     showguides="false">
+    <sodipodi:guide
+       position="0,31.75"
+       orientation="0,793.70081"
+       id="guide1994" />
+    <sodipodi:guide
+       position="210,31.75"
+       orientation="120,0"
+       id="guide1996" />
+    <sodipodi:guide
+       position="210,0"
+       orientation="0,-793.70081"
+       id="guide1998" />
+    <sodipodi:guide
+       position="0,0"
+       orientation="-120,0"
+       id="guide2000" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata1398">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1280"
+       transform="matrix(0.89377222,0,0,0.89377222,-176.05524,-101.871)"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         id="ellipse1264"
+         style="fill:#fe9677;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:19.3785;stroke-linecap:round;stroke-linejoin:round"
+         d="m 321.96289,645.84375 a 67.650066,67.988323 0 0 0 -67.65039,67.98828 67.650066,67.988323 0 0 0 67.65039,67.98828 67.650066,67.988323 0 0 0 67.65039,-67.98828 67.650066,67.988323 0 0 0 -67.65039,-67.98828 z m -7.45312,50.69922 h 0.0469 v 20.78515 h 4.08008 v 3.55079 h -4.08008 v 7.63281 h -4.65625 v -7.63281 h -14.63867 v -0.0469 z m 34.12695,0 c 1.568,0 2.97661,0.32094 4.22461,0.96094 1.248,0.608 2.24056,1.44009 2.97656,2.49609 0.736,1.056 1.10352,2.25561 1.10352,3.59961 0,1.504 -0.32094,2.70361 -0.96094,3.59961 -0.608,0.896 -1.39156,1.66469 -2.35156,2.30469 0.992,0.448 1.96773,1.08792 2.92773,1.91992 0.96,0.8 1.74356,1.79061 2.35156,2.97461 0.64,1.184 0.96094,2.57773 0.96094,4.17773 0,1.824 -0.51116,3.51989 -1.53516,5.08789 -0.992,1.568 -2.3372,2.83102 -4.0332,3.79102 -1.664,0.96 -3.56694,1.43945 -5.71094,1.43945 -2.144,0 -4.04889,-0.47945 -5.71289,-1.43945 -1.664,-0.96 -2.99237,-2.22302 -3.98437,-3.79102 -0.96,-1.568 -1.43946,-3.26389 -1.43946,-5.08789 0,-1.632 0.30411,-3.04061 0.91211,-4.22461 0.64,-1.184 1.42357,-2.17656 2.35157,-2.97656 0.96,-0.832 1.93573,-1.45509 2.92773,-1.87109 -0.96,-0.608 -1.76039,-1.35986 -2.40039,-2.25586 -0.608,-0.896 -0.91016,-2.04903 -0.91016,-3.45703 0,-1.408 0.35069,-2.65614 1.05469,-3.74414 0.736,-1.08801 1.72856,-1.93497 2.97656,-2.54297 1.248,-0.64 2.67149,-0.96094 4.27149,-0.96094 z m -25.77539,0.38476 h 8.25586 v 31.58399 h -4.65625 v -27.1211 h -3.59961 z m 25.87109,3.50391 c -1.056,0 -1.96637,0.36752 -2.73437,1.10352 -0.768,0.736 -1.15235,1.68003 -1.15235,2.83203 0,0.992 0.38435,1.84092 1.15235,2.54492 0.8,0.672 1.71037,1.00781 2.73437,1.00781 1.024,0 1.90463,-0.33581 2.64063,-1.00781 0.768,-0.704 1.15234,-1.55292 1.15234,-2.54492 0,-1.152 -0.38434,-2.09603 -1.15234,-2.83203 -0.736,-0.736 -1.61663,-1.10352 -2.64063,-1.10352 z m -38.83203,5.75977 v 1.23828 l 0.28906,-0.375 z m 0,1.23828 -7.63867,9.89843 h 7.63867 z m -7.63867,9.89843 h -0.9043 l 0.7207,0.23829 z m -35.22461,-8.20898 c 1.92,0 3.63272,0.44775 5.13672,1.34375 1.504,0.864 2.68678,2.04874 3.55078,3.55273 0.864,1.50401 1.29687,3.16819 1.29687,4.99219 0,1.824 -0.43287,3.48819 -1.29687,4.99219 -0.864,1.504 -2.06361,2.70361 -3.59961,3.59961 -1.504,0.864 -3.19989,1.29492 -5.08789,1.29492 -1.92,0 -3.63272,-0.41605 -5.13672,-1.24805 -1.504,-0.864 -2.70361,-2.0319 -3.59961,-3.5039 -0.864,-1.504 -1.29492,-3.21477 -1.29492,-5.13477 0,-1.824 0.43092,-3.48818 1.29492,-4.99219 0.896,-1.504 2.09561,-2.68873 3.59961,-3.55273 1.536,-0.896 3.24872,-1.34375 5.13672,-1.34375 z m -0.0488,1.96875 c -1.472,0 -2.79842,0.38434 -3.98242,1.15234 -1.152,0.736 -2.06433,1.71174 -2.73633,2.92774 -0.672,1.216 -1.00781,2.51072 -1.00781,3.88672 0,1.472 0.33581,2.8172 1.00781,4.0332 0.704,1.184 1.6312,2.12803 2.7832,2.83203 1.184,0.704 2.49555,1.05469 3.93555,1.05469 1.44,0 2.73667,-0.35069 3.88867,-1.05469 1.184,-0.704 2.11316,-1.64803 2.78516,-2.83203 0.704,-1.216 1.05469,-2.5612 1.05469,-4.0332 0,-1.472 -0.35069,-2.80038 -1.05469,-3.98438 -0.672,-1.216 -1.60116,-2.1749 -2.78516,-2.8789 -1.152,-0.736 -2.44867,-1.10352 -3.88867,-1.10352 z m 81.79297,0.71875 c -1.184,-0.032 -2.27167,0.25723 -3.26367,0.86524 -0.992,0.576 -1.79239,1.35956 -2.40039,2.35156 -0.608,0.992 -0.91211,2.0965 -0.91211,3.3125 0,1.216 0.28728,2.31854 0.86328,3.31054 0.576,0.992 1.34469,1.7924 2.30469,2.4004 0.96,0.608 2.03279,0.9121 3.21679,0.9121 1.216,0 2.31855,-0.3041 3.31055,-0.9121 1.024,-0.60801 1.82439,-1.4084 2.40039,-2.4004 0.608,-0.992 0.91211,-2.07967 0.91211,-3.26367 0,-1.216 -0.28728,-2.30367 -0.86328,-3.26367 -0.576,-0.992 -1.35956,-1.79239 -2.35156,-2.40039 -0.96,-0.608 -2.0328,-0.91211 -3.2168,-0.91211 z"
+         transform="matrix(0.26458333,0,0,0.26458333,168.43424,-52.231128)" />
+      <ellipse
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#fe9677;stroke-width:0.272811;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse1266"
+         cx="239.2048"
+         cy="124.17474"
+         rx="9.2166576"
+         ry="9.262743" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.15;font-family:'Josefin Sans';-inkscape-font-specification:'Josefin Sans';letter-spacing:0px;word-spacing:0px;fill:#c8e9ee;fill-opacity:1;stroke-width:0.264583"
+         x="196.54294"
+         y="140.52081"
+         id="text1278"><tspan
+           sodipodi:role="line"
+           id="tspan1276"
+           x="196.54294"
+           y="140.52081"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Josefin Sans';-inkscape-font-specification:'Josefin Sans';fill:#c8e9ee;fill-opacity:1;stroke-width:0.264583"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'Josefin Sans';-inkscape-font-specification:'Josefin Sans Light';fill:#c8e9ee;fill-opacity:1;stroke-width:0.264583"
+             id="tspan1274">Univers</tspan></tspan></text>
+    </g>
+  </g>
+</svg>
